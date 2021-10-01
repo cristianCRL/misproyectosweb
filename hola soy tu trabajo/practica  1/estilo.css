@@ -1,0 +1,82 @@
+*{
+
+   margin: 0px;
+   padding: 0px;
+
+}
+
+body {
+  color:black;
+  background-color: lightblue;
+
+}
+div.noticia > p {
+  color:brown;
+  margin: center;
+  width:50%;
+}
+div#header {
+  color:white;
+  height:100px;
+  width:100%;
+  position:absolute;
+  background-color: #432F75;
+}
+
+
+div.Noticia > h1 {
+color: brown;
+width: 50%;
+margin: auto;
+border-bottom: 10px;
+margin-bottom: 20px;
+bottom: 20px;
+
+}
+
+div.Noticia {
+  margin: auto;
+  width: 50%;
+
+}
+
+div#footer {
+  color:white;
+  height:200px;
+  width:100%;
+  bottom:0px;
+  position:relative;
+  background-color: #432F75;
+}
+img#Logo {
+  width: 70px;
+  height:70px;
+  float: right;
+}
+img#Noticia1 {
+
+  float:left ;
+  border: 2px solid;
+  position: relative;
+}
+
+img#Noticia2 {
+
+  float:left ;
+  position: relative;
+  border: 2px solid;
+}
+
+img#Noticia3 {
+
+  float: left ;
+  border: 2px solid;
+  position: relative;
+}
+
+
+div#musica{
+  position:absolute;
+  right: 10px;
+  top: 90px;
+}
