@@ -1,0 +1,41 @@
+table, td, th {
+  border: 1px solid black;
+
+border-collapse: collapse;
+
+width: 30%
+
+}
+td#c1 {
+  background-color: pink
+}
+
+td#c2 {
+  background-color: red
+}
+
+td#c3 {
+  background-color: orange
+}
+
+td#c4 {
+  background-color: purple
+}
+
+td#c5 {
+  background-color: brown
+}
+
+td#c6 {
+  background-color: green
+}
+
+td#c7 {
+    background-color: silver
+}
+td#c8 {
+    background-color: blue
+}
+td#c9 {
+    background-color: lightblue
+}
