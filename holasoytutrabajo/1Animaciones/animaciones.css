@@ -1,0 +1,48 @@
+
+html{
+  text-align: center;
+}
+@font-face {
+  font-family:"DOCALLIS ME ON STREET";
+src:url("./DOCALLIS ME ON STREET.ttf");
+}
+
+body{
+  background-image:url(https://images8.alphacoders.com/683/thumb-1920-683740.jpg);
+}
+
+
+img {
+  width: 500px;
+  height: 300px;
+}
+
+
+h1 {
+  color: white;
+   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+font-family: "DOCALLIS ME ON STREET";
+}
+div.compra {
+  width:5%;
+  margin:auto;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  transform: rotateX(150deg);
+  color: white;
+  animation-direction: alternate;
+}
+
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+    animation-iteration-count: infinite;
+    0% { -webkit-transform:rotateZ(-10deg); }
+50% { -webkit-transform:rotateZ( 0deg) scale(.8); }
+100%{ -webkit-transform:rotateZ( 10deg); }
+}
+}
