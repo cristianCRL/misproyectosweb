@@ -5,7 +5,7 @@
     <title></title>
 
     <link rel="stylesheet" href="formulario2.css"/>
-<form class="" action="procesar.php" method="post"
+<form class="" action="procesar.php" method="post">
   </head>
   <body>
     <p>
