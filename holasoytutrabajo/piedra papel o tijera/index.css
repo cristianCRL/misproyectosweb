@@ -1,6 +1,5 @@
-.personales {
-
-
+*{
+  text-align: center;
 }
 
 .container{
@@ -10,15 +9,43 @@
   border-radius: 4px;
   position: absolute;
   width: 400px;
-  left: 100px;
+  left: 700px;
   border-style: solid;
   border-color: #FB00FF #00E8FF #00E8FF #FB00FF;
   border-width: 3px;
   top: 275px;
   background-color: transparent;
-
+display: inline-block;
   font-size: 30px;
 }
 
 
-img#foto1
+img#foto1{
+
+display: inline-block;
+  width: 100px;
+height: 100px;
+
+
+}
+
+img#foto2{
+
+display: inline-block;
+
+  width: 100px;
+height: 100px;
+
+}
+
+img#foto3{
+
+display: inline-block;
+  width: 100px;
+height: 100px;
+
+}
+
+input[type=submit]:hover {
+  background-color:yellow;
+}

@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "SuperMarioBros.";
+src:url("./SuperMarioBros..ttf");
+}
+
+
+
+div.div1 {
+
+  background-color: lightgreen;
+  position: absolute;
+  text-align: right;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  right: 0px;
+  height: 100%;
+
+
+}
+
+div.div2 {
+  background-color:lightblue;
+position: absolute;
+left: 0px;
+height: 100%;
+width: 81.5%;
+
+
+}
+div.formulario1, div.formulario2, div.formulario3, div.formulario4 {
+
+text-align: center;
+
+position:relative;
+
+  font-family: "SuperMarioBros.";
+}
+
+
+input[type=submit]:hover {
+  background-color:yellow;
+}
+
+h8 {
+  font-family: "Varsity";
+  font-size: 400%;
+  color: white;
+
+}

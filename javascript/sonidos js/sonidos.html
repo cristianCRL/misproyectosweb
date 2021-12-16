@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+      window.addEventListener("keypress", function(info){
+        let sonidoVaca = document.getElementById("vaca")
+        let sonidoperro = document.getElementById("perro")
+        let sonidogato = document.getElementById("gato")
+
+        if (info.key == "m") {
+
+
+        sonidoVaca.play()
+        }
+        if (info.key == "t") {
+
+
+        sonidoperro.play()
+        }
+        if (info.key == "c") {
+
+
+        sonidogato.play()
+        }
+      })
+    </script>
+  </head>
+  <body>
+    <h1>Sonidos</h1>
+         <audio id="vaca" src="./vaca.mp3" controls=true></audio><br>
+         <audio id="perro" src="./perro.mp3" controls=true></audio><br>
+         <audio id="gato" src="./gato.mp3" controls=true></audio><br>
+    <ul>
+      <li>  Pulsa m para vaca</li>
+      <li>  Pulsa t para perro</li>
+      <li>  Pulsa c para gato</li>
+    </ul>
+  </body>
+</html>

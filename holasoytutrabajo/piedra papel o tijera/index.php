@@ -7,6 +7,7 @@
     <title></title>
   </head>
   <body>
+
     <div class="header">
       <h2>Piedra papel o tijera</h2>
     </div>
@@ -14,7 +15,7 @@
       <form action="index.php" method="post">
         <label for="fname" class="piedra">  <img id=foto1 src="./piedra.png"/></label>
 
-            <input type="radio" id="piedra" name="piedra">
+            <input type="radio" id="piedra" name="papel">
 
         <label for="papel">  <img id=foto2 src="./papel.png"></label>
 
@@ -22,13 +23,15 @@
 
         <label for="fname">  <img id=foto3 src="./tijera.png"/></label>
 
-            <input type="radio" id="tijera" name="tijera">
 
-
+            <input type="radio" id="tijera" name="papel">
+  <br><br><br>
+      <input class="boton" type="submit" value="Enviar">
 
 
 </form>
         </div>
+
 </div>
   </body>
 </html>

@@ -1,0 +1,21 @@
+
+body{
+  background-color: blue;
+  color: white;
+}
+
+
+
+#principal {
+  margin: auto;
+  width: 50%;
+  background-color: green;
+  color: white;
+  border-radius: 125px;
+  border: 2px solid green;
+}
+#calc form {
+  text-align: center;
+  margin: 100px auto;
+  width: 50%;
+}
